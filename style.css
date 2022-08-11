@@ -1,0 +1,30 @@
+ul{
+    font-size: 50px;
+    list-style-type: square;
+}
+ol{
+    font-size: xx-large;
+}
+
+ul li:nth-child(even){
+    background-color:blue;
+}
+ul li:nth-child(odd){
+    background-color:red;
+}
+
+.odd{
+    background-color: tomato;
+}
+.even{
+    background-color:cornflowerblue;
+}
+
+button{
+    text-align: center;
+    font-size: 200%;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
